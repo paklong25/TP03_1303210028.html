@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Profile_1303210028</title>
+    <!-- bagian style untuk code css -->
+    <style>
+        .text-align {
+            text-align: center;
+        }
+
+        .letak-tulisan {
+            text-align: center;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .letak {
+            text-align: center;
+        }
+
+        * {
+            background-color: wheat;
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+            background-color: #45a1ff;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- div digunakan untuk membungkus bagian yang berbeda dalam web-->
+    <div>
+    <h1 class="text-align">Welcome to my self profile</h1>
+    <hr />
+        <!-- table berfungsi untuk mengatur posisi gambar dan video -->
+        <table border="0" style="width: 40%; text-align: center;">
+            <tr>
+                <td>
+                    <h2>Photo Profile</h2>
+                        <img src="./Resource Foto Atau Video//Ihsan Luthfi.jpg" width="150px" alt="Ihsan Luthfi Althoriq">
+                </td>
+                <td>
+                    <h2>Introduction Video</h2>
+                        <video controls width="150">
+                            <source src="./Resource Foto Atau Video/VID_20240929_225109.mp4" type="video/mp4" />
+                        </video>
+                    </td>
+            </table>
+        </tr>
+    </div>
+    <hr />
+
+    <div>
+        <h2 class="letak-tulisan">About Me</h2>
+            <p class="center">Hello, <br />
+                My Name Is Ihsan Luthfi Althoriq.<br />
+                Im Now Studying on Telkom University.<br />
+                Im now focusing on Full Stack Developer</p>
+    </div>
+    <hr />
+
+    <div>
+        <!-- table tag untuk menampilkan informasi -->
+        <h3 class="letak">My Skills</h3>
+            <table border="1" align="center">
+                <!-- tr untuk elemen baris tabel -->
+                <tr>
+                    <!-- tr untuk elemen kepala tabel -->
+                    <th scope="col">Skills</th>
+                    <th scope="col">Level</th>
+                </tr>
+                <tr>
+                    <th scope="row">HTML</th>
+                    <!-- td untuk elemen data sel -->
+                    <td>⭐️⭐️⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                    <th scope="row">CSS</th>
+                    <td>⭐️⭐️⭐️</td>
+                </tr>
+                <tr>
+                    <th scope="row">Javascript</th>
+                    <td>⭐️</td>
+                </tr>>
+            </table>
+    </div>
+    <hr />
+    
+    <div>
+        <h3>Contact Me</h3>
+            <!-- p untuk menampilkan paragraf -->
+            <p><label for="name">Name :</label>
+                <!-- input untuk membuat kontrol interaktif  -->
+                <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" /></p>
+            <p><label for="email">Email :</label>
+                <input type="text" id="email" name="email" required minlength="4" maxlength="8" size="10" /></p>
+            <p><label for="message">Message :</label>
+                <input type="text" id="message" name="message" required minlength="4" maxlength="8" size="10" /></p>
+
+                <input type="button" value="Send Message" />
+    </div>
+    <hr />
+
+    <div>
+        <h3>Media Social</h3>
+            <ul>
+                <li><a href="https://github.com/paklong25">Github</a></li>
+            </ul>
+        <!-- footer untuk menampilkan bagian informasi penulis -->
+        <footer>
+            <p>© 2024 Ihsan Luthfi Althoriq</p>
+        </footer>
+    </div>
+</body>
+</html>
